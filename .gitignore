@@ -1,0 +1,4 @@
+.vagrant
+kubeconfig/*
+!kubeconfig/README
+.config

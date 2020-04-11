@@ -1,0 +1,32 @@
+#
+# Custom certificate and key for traefik
+#
+# example git with token:
+#   K3S_DEFAULT_CERTFILE_URL='https://1234567890123456789012345678901234567890@git.example.com/user/certificate-repo/raw/branch/master/fullchain.pem'
+#
+# K3S_DEFAULT_CERTFILE_URL=''
+# K3S_DEFAULT_CERTKEY_URL=''
+
+
+#
+# Custom password for ArgoCD
+#
+# if not set, the password will be 'password'
+#
+# K3S_ARGOCD_PASSWORD=''
+
+
+#
+# Custom hostname for traefik
+#
+# if not set, the hostname will be 'traefik.example.com'
+#
+# K3S_TREAFIK_HOSTNAME=''
+
+
+#
+# Custom hostname for ArgoCD
+#
+# if not set, the hostname will be 'argocd.example.com'
+#
+# K3S_ARGOCD_HOSTNAME=''
