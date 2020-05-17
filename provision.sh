@@ -55,7 +55,7 @@ apk add -q -f curl libc6-compat tzdata git wait4ports bash-completion jq apache2
 #
 # Install k3s without traefik 1.x
 #
-curl -sfL https://get.k3s.io | sh -s - --no-deploy traefik
+curl -sfL https://get.k3s.io | sh -s - --no-deploy traefik --write-kubeconfig-mode 644
 
 #
 # Wait for kubeconfig to use kubectl
